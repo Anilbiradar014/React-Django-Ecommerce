@@ -9,7 +9,7 @@ const Header = () => {
       {/* collapseOnSelect: will collapse after select */}
       <Navbar expand="lg" bg="dark" variant="dark" collapseOnSelect>
         <Container>
-          <Navbar.Link href="/">ProShop</Navbar.Link>
+        <Navbar.Brand href="/">ProShop</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
